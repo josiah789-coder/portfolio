@@ -1,0 +1,48 @@
+body{
+    font-family: 'PT Serif', serif;
+font-size: 1.25rem;
+margin: 0;
+}
+header{
+    background-color: seagreen;
+min-height: 100vh;}
+
+nav{
+    background-color: rgba(186, 203, 204, 0.938);
+    width: 100%;
+    position: fixed;
+}
+
+nav a{text-decoration: none;
+color: white;}
+
+nav li{display: inline-block;
+padding: 10px;
+padding-top: 0;
+padding-bottom: 0;}
+
+header main{padding-top: 50px;
+text-align: center;}
+
+header img{
+    width: 30%;
+}
+
+.about-me{
+    padding: 30px 60px;
+}
+
+.projects{
+    padding: 30px 60px;
+}
+
+.projects img{
+    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
+    padding-left: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
